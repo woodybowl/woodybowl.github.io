@@ -1,9 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>个人博客</title>
-    <url>/uncategorized/hello-world/</url>
-    <content><![CDATA[<p>欢迎来到唐伟俊的个人博客</p>
-]]></content>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>进阶</title>
+      <link href="/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/"/>
+      <url>/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<p>爬虫的功能很多</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>制作一个基于github和hexo的个人博客</title>
+      <link href="/github/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
+      <url>/github/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> github </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人博客</title>
+      <link href="/uncategorized/hello-world/"/>
+      <url>/uncategorized/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到唐伟俊的个人博客</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>

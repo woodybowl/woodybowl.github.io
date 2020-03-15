@@ -1,70 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>进阶</title>
-      <link href="/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/"/>
-      <url>/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
-      
-        <content type="html"><![CDATA[<p>爬虫的功能很多</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>进阶</title>
+    <url>/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
+    <content><![CDATA[<p>爬虫的功能很多</p>
+]]></content>
       <categories>
-          
-          <category> python </category>
-          
+        <category>python</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 爬虫 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>制作一个基于github和hexo的个人博客</title>
-      <link href="/github/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
-      <url>/github/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>制作一个基于github和hexo的个人博客</title>
+    <url>/github/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+    <content><![CDATA[<p><strong>文章目录</strong></p>
+<h2 id="一-安装node-js"><a href="#一-安装node-js" class="headerlink" title="一.安装node js"></a>一.安装node js</h2><p>在官网下载，记得配饰环境变量</p>
+<h2 id="二-GitHub的ssh配置"><a href="#二-GitHub的ssh配置" class="headerlink" title="二.GitHub的ssh配置"></a>二.GitHub的ssh配置</h2><p>就是指本地连接GitHub</p>
+<h3 id="1-设置git的user-name和email"><a href="#1-设置git的user-name和email" class="headerlink" title="1.设置git的user name和email"></a>1.设置git的user name和email</h3><p>如果第一次在自己电脑上面使用，或者还没有配置过的话需要操作一下命令，自行替换相应字段。</p>
+<pre><code>$ git config --global user.name &quot;Luke.Deng&quot;
+$ git config --global user.email  &quot;xiangshuo1992@gmail.com&quot;</code></pre>]]></content>
       <categories>
-          
-          <category> github </category>
-          
+        <category>github</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>个人博客</title>
-      <link href="/uncategorized/hello-world/"/>
-      <url>/uncategorized/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到唐伟俊的个人博客</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人博客</title>
+    <url>/uncategorized/hello-world/</url>
+    <content><![CDATA[<p>欢迎来到唐伟俊的个人博客</p>
+]]></content>
+  </entry>
 </search>

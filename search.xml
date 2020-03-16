@@ -1,37 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>进阶</title>
-    <url>/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
-    <content><![CDATA[<p>爬虫的功能很多</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>进阶</title>
+      <link href="/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/"/>
+      <url>/python/%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<p>爬虫的功能很多</p>]]></content>
+      
+      
       <categories>
-        <category>python</category>
+          
+          <category> python </category>
+          
       </categories>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>制作一个基于github和hexo的个人博客</title>
-    <url>/github/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
-    <content><![CDATA[<p><strong>文章目录</strong></p>
-<h2 id="一-安装node-js"><a href="#一-安装node-js" class="headerlink" title="一.安装node js"></a>一.安装node js</h2><p>在官网下载，记得配饰环境变量</p>
-<h2 id="二-GitHub的ssh配置"><a href="#二-GitHub的ssh配置" class="headerlink" title="二.GitHub的ssh配置"></a>二.GitHub的ssh配置</h2><p>就是指本地连接GitHub</p>
-<h3 id="1-设置git的user-name和email"><a href="#1-设置git的user-name和email" class="headerlink" title="1.设置git的user name和email"></a>1.设置git的user name和email</h3><p>如果第一次在自己电脑上面使用，或者还没有配置过的话需要操作一下命令，自行替换相应字段。</p>
-<pre><code>$ git config --global user.name &quot;Luke.Deng&quot;
-$ git config --global user.email  &quot;xiangshuo1992@gmail.com&quot;</code></pre>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>制作一个基于github和hexo的个人博客</title>
+      <link href="/github/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
+      <url>/github/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<p><strong>文章目录</strong></p><!-- TOC --><ul><li><a href="#一安装node-js">一.安装node js</a></li><li><a href="#二github的ssh配置">二.GitHub的ssh配置</a><ul><li><a href="#设置git的user-name和email">设置git的user name和email</a></li><li><a href="#检查是否存在ssh-key">检查是否存在ssh key</a></li><li><a href="#获取ssh-key">获取ssh key</a></li><li><a href="#github添加ssh-key">github添加ssh key</a></li><li><a href="#验证和修改">验证和修改</a></li></ul></li><li><a href="#hexo本地使用">hexo本地使用</a></li><li><a href="#hexo发布到github上">hexo发布到GitHub上</a></li></ul><!-- /TOC --><h2 id="一-安装node-js"><a href="#一-安装node-js" class="headerlink" title="一.安装node js"></a>一.安装node js</h2><p>在官网下载，记得配置环境变量。</p><h2 id="二-GitHub的ssh配置"><a href="#二-GitHub的ssh配置" class="headerlink" title="二.GitHub的ssh配置"></a>二.GitHub的ssh配置</h2><p>就是指本地连接GitHub</p><h3 id="设置git的user-name和email"><a href="#设置git的user-name和email" class="headerlink" title="设置git的user name和email"></a>设置git的user name和email</h3><p>如果第一次在自己电脑上面使用，或者还没有配置过的话需要操作一下命令，自行替换相应字段。</p><pre><code>$ git config --global user.name &quot;Luke.Deng&quot;$ git config --global user.email  &quot;xiangshuo1992@gmail.com&quot;</code></pre><p>说明：git config –list 查看当前Git环境所有配置，还可以配置一些命令别名之类的。</p><h3 id="检查是否存在ssh-key"><a href="#检查是否存在ssh-key" class="headerlink" title="检查是否存在ssh key"></a>检查是否存在ssh key</h3><pre><code>$ cd ~/.ssh$ ls或者$ ll//看是否存在 id_rsa 和 id_rsa.pub文件，如果存在，说明已经有SSH Key</code></pre><p>如图所示<br><img src="https://img-blog.csdnimg.cn/2018102909093380.png" alt="Alt"><br>如果没有SSH Key，则需要先生成一下</p><pre><code>ssh-keygen -t rsa -C &quot;xiangshuo1992@gmail.com&quot;</code></pre><p>然后继续检查是否存在</p><h3 id="获取ssh-key"><a href="#获取ssh-key" class="headerlink" title="获取ssh key"></a>获取ssh key</h3><pre><code>cat id_rsa.pub//拷贝秘钥 ssh-rsa开头</code></pre><p><img src="https://img-blog.csdnimg.cn/20181029091352393.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTM3Nzg5MDU=,size_12,color_FFFFFF,t_70" alt="Alt"></p><h3 id="github添加ssh-key"><a href="#github添加ssh-key" class="headerlink" title="github添加ssh key"></a>github添加ssh key</h3><p>GitHub点击用户头像，选择setting<br>新建一个SSH Key<br><img src="https://img-blog.csdnimg.cn/20181029092310463.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTM3Nzg5MDU=,size_12,color_FFFFFF,t_70" alt="Alt"><br>取个名字，把之前拷贝的秘钥复制进去，添加就好啦。</p><h3 id="验证和修改"><a href="#验证和修改" class="headerlink" title="验证和修改"></a>验证和修改</h3><p>测试是否成功配置SSH Key</p><pre><code>ssh -T git@github.com//运行结果出现类似如下Hi xiangshuo1992! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code></pre><p>之前已经是https的链接，现在想要用SSH提交怎么办？<br>直接修改项目目录下 .git文件夹下的config文件，将地址修改一下就好了。</p><p>git地址获取可以看如下图切换。<br><img src="https://img-blog.csdnimg.cn/20181029093141515.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTM3Nzg5MDU=,size_12,color_FFFFFF,t_70" alt="Alt"></p><h2 id="hexo本地使用"><a href="#hexo本地使用" class="headerlink" title="hexo本地使用"></a>hexo本地使用</h2><p>官网查找相关代码用git下载</p><h2 id="hexo发布到GitHub上"><a href="#hexo发布到GitHub上" class="headerlink" title="hexo发布到GitHub上"></a>hexo发布到GitHub上</h2><pre><code>hexo g//上传至本地</code></pre><pre><code>hexo s -p 5555//本地预览</code></pre><pre><code>hexo d//上传至GitHub</code></pre>]]></content>
+      
+      
       <categories>
-        <category>github</category>
+          
+          <category> github </category>
+          
       </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人博客</title>
-    <url>/uncategorized/hello-world/</url>
-    <content><![CDATA[<p>欢迎来到唐伟俊的个人博客</p>
-]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人博客</title>
+      <link href="/uncategorized/hello-world/"/>
+      <url>/uncategorized/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到唐伟俊的个人博客</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
